@@ -1,0 +1,33 @@
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\appsettings.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Csharp task.staticwebassets.runtime.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Csharp task.exe
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Csharp task.deps.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Csharp task.runtimeconfig.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Csharp task.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Csharp task.pdb
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.AssemblyInfoInputs.cache
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.AssemblyInfo.cs
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.csproj.CoreCompileInputs.cache
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.RazorAssemblyInfo.cache
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.RazorAssemblyInfo.cs
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets\msbuild.Csharp task.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets\msbuild.build.Csharp task.props
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Csharp task.props
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Csharp task.props
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\scopedcss\bundle\Csharp task.styles.css
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\scopedcss\projectbundle\Csharp task.bundle.scp.css
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\refint\Csharp task.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.pdb
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.genruntimeconfig.cache
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\ref\Csharp task.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.csproj.AssemblyReference.cache
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.csproj.CopyComplete

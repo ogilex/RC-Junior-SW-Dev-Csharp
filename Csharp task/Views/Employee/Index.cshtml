@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" type="text/css" href="~/css/EmployeeView.css" />
+@model List<EmployeeDto>
+
+@if (Model != null && Model.Any())
+{  
+    <div class="main">
+        <div class="employeeTable">
+            <h1>Employee Table</h1>
+            <table>
+                <tr>
+                    <th class="nameColumn">Name</th>
+                    <th>Total Time in Month</th>
+                </tr>
+                @foreach (var employee in Model)
+                {
+                    <tr style="@(employee.HoursWorked < 100 ? "background-color: #F4AD9C;" : "")">
+                        <td>@employee.EmployeeName</td>
+                        <td class="hourColumn">@employee.HoursWorked hrs</td>
+                    </tr>
+                }
+            </table>
+        </div>
+
+    </div>
+
+}
+else
+{
+    <p>No data available</p>
+}
