@@ -12,6 +12,7 @@
         }
 
         public int CompareTo(EmployeeDto? other)
+
         {
             return other.HoursWorked.CompareTo(this.HoursWorked);
         }

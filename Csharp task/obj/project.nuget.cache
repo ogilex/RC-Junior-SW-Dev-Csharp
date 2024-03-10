@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "snB9pvC/Fn0UuO1z9E5KFHX28tuzKZc0sHZ4FWW+AtJ4cEdgmUXwrUSA5MqrlvZYvTWATMRJLuMF8OtvpfVumw==",
+  "dgSpecHash": "buwNMsZSeovLS2v0DzpYAj7RvGIp5/yHfWBqbWUrAG9idtAdDOPtTOjdZzMhxA8QoeEsw9MzeLDmNrywuCBYyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ognje\\OneDrive\\Desktop\\RC Junior SW Dev task\\RC-Junior-SW-Dev-Csharp\\Csharp task\\Csharp task.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ognje\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\ognje\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ognje\\.nuget\\packages\\skiasharp\\2.88.7\\skiasharp.2.88.7.nupkg.sha512",
+    "C:\\Users\\ognje\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.7\\skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
+    "C:\\Users\\ognje\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.7\\skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
   ],
   "logs": []
 }

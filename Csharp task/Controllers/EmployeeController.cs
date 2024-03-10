@@ -1,37 +1,62 @@
-﻿using Csharp_task.Models;
-using Microsoft.AspNetCore.Http;
+﻿using Csharp_task.Helpers;
+using Csharp_task.Models;
+using Csharp_task.Services;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Diagnostics;
-using System.Text.Json;
 
 namespace Csharp_task.Controllers
 {
     public class EmployeeController : Controller
-    {   
+    {
 
-        private readonly HttpClient client;
-
-        public EmployeeController(HttpClient httpClient)
+        private readonly DataService dataService;
+        private List<EmployeeDto> employees = new List<EmployeeDto>();
+        public EmployeeController(DataService service)
         {
-            client = httpClient;
+            dataService = service;
         }
 
-        // GET: EmployeeController
         public async Task<IActionResult> Index()
         {
+            try
+            {
+                await manipulateData();
+                return View(employees);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing the data. " + ex);
+            }
+
+        }
+
+        public async Task<IActionResult> GenerateAndDownloadPieChart()
+        {
+            try
+            {
+                await manipulateData();
+                byte[] chartBytes = EmployeePieChartHelper.GenerateEmployeePieChart(employees);
+                return File(chartBytes, "image/png", "pie_chart.png");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing the data. " + ex);
+            }
+
+        }
+
+        private async Task manipulateData()
+        {
+            var data = await dataService.GetDataFromApiAsync();
             Dictionary<string, long> employeesDictionary = new Dictionary<string, long>();
-            var data = await getDataFromApi();
-            
             foreach (var emp in data)
-            {   
+            {
                 DateTime parsedStartDate = DateTime.Parse(emp.StarTimeUtc);
                 DateTime parsedEndDate = DateTime.Parse(emp.EndTimeUtc);
                 TimeSpan diff = parsedEndDate - parsedStartDate;
 
                 long diffInMs = (long)diff.TotalMilliseconds;
 
-                if(emp.EmployeeName != null && diffInMs >= 0)
+                if (emp.EmployeeName != null && diffInMs >= 0)
                 {
                     EmployeeDto empDtp = new EmployeeDto(emp.EmployeeName, diffInMs);
                     if (employeesDictionary.ContainsKey(empDtp.EmployeeName))
@@ -47,34 +72,17 @@ namespace Csharp_task.Controllers
 
             }
 
-            List<EmployeeDto> employees = new List<EmployeeDto>();
-
             foreach (var kvp in employeesDictionary)
             {
                 long hrsWorked = kvp.Value / 3600000;
                 EmployeeDto employee = new EmployeeDto(kvp.Key, hrsWorked);
-                
+
                 employees.Add(employee);
             }
 
             employees.Sort();
-            
-            return View(employees);
-        }
-        
-        private async Task<List<EmployeeModel>> getDataFromApi()
-        {
-            List<EmployeeModel> data = new List<EmployeeModel>();
-            HttpResponseMessage response = await client.GetAsync("https://rc-vault-fap-live-1.azurewebsites.net/api/gettimeentries?code=vO17RnE8vuzXzPJo5eaLLjXjmRW07law99QTD90zat9FfOQJKKUcgQ==");
-      
-            if (response.IsSuccessStatusCode)
-            {
-                string jsonString = await response.Content.ReadAsStringAsync();
-                data = JsonConvert.DeserializeObject<List<EmployeeModel>>(jsonString);
-                Debug.WriteLine("Data JSOn" + jsonString);
-            }
 
-            return data;
         }
     }
 }
+

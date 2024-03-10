@@ -31,3 +31,9 @@ C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Cs
 C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.csproj.AssemblyReference.cache
 C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.csproj.CopyComplete
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\obj\Debug\net8.0\Csharp task.sourcelink.json
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\ognje\OneDrive\Desktop\RC Junior SW Dev task\RC-Junior-SW-Dev-Csharp\Csharp task\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll

@@ -1,8 +1,10 @@
+using Csharp_task.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
-
+builder.Services.AddTransient<DataService>();
 var app = builder.Build();
 
 app.UseStaticFiles();

@@ -4,16 +4,15 @@ namespace Csharp_task.Models
 {
     public class EmployeeModel
     {
+        public required string Id { get; set; }
         [Required]
-        public string Id { get; set; }
+        public required string EmployeeName { get; set; }
         [Required]
-        public string EmployeeName { get; set; }
+        public required string StarTimeUtc { get; set; }
         [Required]
-        public string StarTimeUtc { get; set; }
+        public required string EndTimeUtc { get; set; }
         [Required]
-        public string EndTimeUtc { get; set; }
-        [Required]
-        public string EntryNotes { get; set; }
+        public string? EntryNotes { get; set; }
 
     }
 }
